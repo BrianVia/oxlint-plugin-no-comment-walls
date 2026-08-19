@@ -1,6 +1,0 @@
-{
-  "jsPlugins": ["../../index.mjs"],
-  "rules": {
-    "no-comment-walls/no-comment-walls": "error"
-  }
-}
