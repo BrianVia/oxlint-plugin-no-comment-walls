@@ -1,0 +1,30 @@
+{
+  "name": "oxlint-plugin-no-comment-walls",
+  "version": "0.1.0",
+  "description": "Oxlint/ESLint rule that bans blocks of consecutive line comments (comment walls)",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": "./index.mjs",
+  "files": [
+    "index.mjs"
+  ],
+  "scripts": {
+    "test": "node test/run.mjs"
+  },
+  "keywords": [
+    "oxlint",
+    "eslint",
+    "eslint-plugin",
+    "comments",
+    "lint"
+  ],
+  "author": "Brian Via",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianVia/oxlint-plugin-no-comment-walls.git"
+  },
+  "devDependencies": {
+    "oxlint": "^1.78.0"
+  }
+}
