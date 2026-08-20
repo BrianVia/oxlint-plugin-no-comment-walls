@@ -4,7 +4,7 @@ An Oxlint rule that rejects blocks of consecutive `//` line comments ("comment w
 
 ```
 guidesStore.ts:42:3: error no-comment-walls(no-comment-walls):
-  Comment wall: 4 consecutive line comments (max 2). Tighten it or move the essay to a doc.
+  Comment wall: 4 consecutive line comments (max 2). Cut it to 2, write clearer code that needs no explanation, or move the essay to a doc.
 ```
 
 This project is meant to be vendored, not treated as a fixed npm dependency. Copy the rule into your repository, read it, and change it to match your team's standards. The bundled agent skill handles the initial copy and configuration; after that, the vendored files are yours to maintain.

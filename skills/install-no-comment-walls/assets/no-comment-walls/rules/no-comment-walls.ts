@@ -12,7 +12,7 @@ export const noCommentWallsRule = defineRule({
 		},
 		messages: {
 			commentWall:
-				"Comment wall: {{count}} consecutive line comments (max {{max}}). Tighten it or move the essay to a doc.",
+				"Comment wall: {{count}} consecutive line comments (max {{max}}). Cut it to {{max}}, write clearer code that needs no explanation, or move the essay to a doc.",
 		},
 		schema: [
 			{
